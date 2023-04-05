@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color: #3c3c3c;
+}
+
+#gradiente{
+    width: 900px;
+    margin: auto;
+    height: 400px;
+    background: rgb(255,158,29);
+background: linear-gradient(180deg, rgba(255,158,29,1) 0%, rgba(255,61,61,1) 24%, rgba(243,255,0,1) 100%);
+}
+
+#imagen{
+    width: 900px;
+    margin: 64px auto;
+    height: 400px;
+    
+    background-image: url(../imgs/skatebg.jpg);
+    background-position: center -256px;
+    background-size: cover;
+}

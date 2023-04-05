@@ -46,8 +46,28 @@ header{
 
 /* main */
 main{
-
+    width: 960px;
+    margin: auto;
 }
+
+    /* hero banner */
+    #hero-banner{
+        height: 450px;
+        background-image: url(../imgs/hero-banner.jpg);
+        background-size: 960px;
+        background-position: 0 center;
+
+        display: flex;
+        align-items: center;
+    }
+        #hero-banner h1{
+            font-size: 32px;
+            color: #fff;
+            margin-left: 150px;
+            width: 288px;
+        }
+
+
 
 /* footer */
 footer{
