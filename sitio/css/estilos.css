@@ -100,7 +100,27 @@ main{
 
 /* footer */
 footer{
+    width: 960px;
+    margin: 52px auto 0px auto;
+    height: 160px;
+    background-color: #3C3C3C;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+    footer a{
+        color: #fff;
+    }
+        footer a img{
+            vertical-align: middle;
+            margin: 0px 8px 0px 12px;
+        }
+
+        footer div img{
+            width: 24px;
+            margin: 12px;
+        }
 
 
