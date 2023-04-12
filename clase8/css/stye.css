@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main{
+    width: 960px;
+    margin: auto;
+}
+
+    #contenedor{
+        display: flex;
+    }
+        #contenedor a{
+            width: 480px;
+            height: 415px;
+            display: block;
+            color: #fff;
+            font-size: 36px;
+            display: flex;
+            flex-wrap: wrap; /* respeta los anchos */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        #contenedor a span{
+            margin-top: 56px;
+            display: block;
+            width: 100%;
+        }
+
+        #pedido{
+            background-image: url(../imgs/izq.png);
+        }
+        #menu{
+            background-image: url(../imgs/der.png);
+        }
+    
