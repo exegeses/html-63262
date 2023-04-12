@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -16,13 +17,14 @@ main{
 
     #contenedor{
         display: flex;
+        font-family: 'Lobster', cursive;
     }
         #contenedor a{
             width: 480px;
             height: 415px;
             display: block;
             color: #fff;
-            font-size: 36px;
+            font-size: 64px;
             display: flex;
             flex-wrap: wrap; /* respeta los anchos */
             align-items: center;
