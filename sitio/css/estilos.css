@@ -95,7 +95,36 @@ main{
             margin: 12px 0px;
         }
 
+/* sección servicios */
+    #servicios{
+        width: 680px;
+        margin: 52px auto;
+        height: 372px;
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos */
+        justify-content: space-between;
+        column-gap: 100px;
+        row-gap: 32px;
+    }
+    
+        #servicios h2{
+            width: 100%;
+            text-align: center;
+        }
 
+        #servicios  a{
+            width: 160px;
+            height: 140px;
+            display: block;
+            border: 1px solid #3C3C3C;
+            border-radius: 12px;
+            text-align: center;
+            color: #3C3C3C;
+        }
+        .material-symbols-outlined{
+            font-size: 56px;
+            margin: 18px 52px;
+        }
 
 
 /* footer */
