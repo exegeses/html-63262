@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: cornflowerblue;
+    font-size: 24;
+}
+main{
+    width: 960px;
+    margin: 32px auto;
+}
+h2{
+    margin: 32px 0px;
+}
+
+#video,  #video2, #mapa{
+    width: 960px;
+    height: 450px;
+    border: none;
+}

@@ -120,6 +120,11 @@ main{
             border-radius: 12px;
             text-align: center;
             color: #3C3C3C;
+            transition: 500ms;
+        }
+        #servicios a:hover{
+            background-color: #3C3C3C;
+            color: #fff;
         }
         .material-symbols-outlined{
             font-size: 56px;
